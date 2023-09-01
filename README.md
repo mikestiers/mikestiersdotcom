@@ -1,2 +1,0 @@
-# mikestiersdotcom
-mikestiers.com
