@@ -1,0 +1,50 @@
+name: Publish Site
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: Login via Az module
+        uses: azure/login@v1
+        with:
+          creds: ${{secrets.AZURE_CREDENTIALS}}
+          enable-AzPSSession: true 
+
+      - name: Upload to blob storage
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+              az storage blob upload-batch --account-name mikestiersdotcom --auth-mode key -d '$web' -s .
+
+      # - name: Purge CDN endpoint
+      #   uses: azure/CLI@v1
+      #   with:
+      #     inlineScript: |
+      #        az cdn endpoint purge --content-paths  "/*" --profile-name "CDN_PROFILE_NAME" --name "CDN_ENDPOINT" --resource-group "RESOURCE_GROUP"
+
+      # - name: Azure PowerShell Action
+      #   uses: Azure/powershell@v1
+      #   with:
+      #     # Specify the Az PowerShell script here.
+      #     inlineScript: write-host "hello world"
+      #     # Azure PS version to be used to execute the script, example: 1.8.0, 2.8.0, 3.4.0. To use the latest version, specify "latest".
+      #     azPSVersion: latest
+      #     # Select the value of the ErrorActionPreference variable for executing the script. Options: stop, continue, silentlyContinue. Default is Stop.
+      #     errorActionPreference: stop
+      #     # If this is true, this task will fail if any errors are written to the error pipeline, or if any data is written to the Standard Error stream.
+      #     failOnStandardError: false
+      #     # Used to pull Az module from Azure/az-ps-module-versions.  Since there's a default, this is typically not supplied by the user.
+      #     githubToken: ${{ github.token }} # optional, default is ${{ github.token }}
