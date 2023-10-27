@@ -48,7 +48,7 @@ permalink: /gamedev/
   </tr>
 
   <tr>
-    <td><a href="http://github.com/mikestiers/skyward_assault">Skyward Assault</a> - Vertical FPS</td>
+    <td><a href="http://github.com/mikestiers/SkywardAssault">Skyward Assault</a> - Vertical FPS</td>
   </tr>
   <tr>
     <td><img src="../images/Skyward_Assault.gif" width="304" height="178"></td>
@@ -62,7 +62,7 @@ permalink: /gamedev/
   </tr>
 
   <tr>
-    <td><a href="http://github.com/mikestiers/topdown_titan">TopDown Titan</a> - Mobile bullet-hell</td>
+    <td><a href="http://github.com/mikestiers/TopDownTitan">TopDown Titan</a> - Mobile bullet-hell</td>
   </tr>
   <tr>
     <td><img src="../images/TopDown_Titan.gif" width="304" height="249"></td>
