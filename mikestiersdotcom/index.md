@@ -6,3 +6,4 @@ layout: page
 title: /
 permalink: /
 ---
+<h1>{{ "Hey" | downcase }}</h1>
