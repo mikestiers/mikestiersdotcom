@@ -28,10 +28,11 @@ github_username:  jekyll
 markdown: kramdown
 # theme: minima
 # theme: jekyll-theme-munky
-theme: jekyll-theme-console
+# theme: jekyll-theme-console
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag # used because it was a dependency of jekyll-theme-console and i copied that locally instead of installing it as a gem
 
 header_pages:
   - index.md

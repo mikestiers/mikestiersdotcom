@@ -1,7 +1,7 @@
 /**
  * Hacker theme variables
  */
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700");
 :root {
   --base-color: #00ff00;
   --border: dashed 1px rgba(0, 255, 0, 0.9);
@@ -40,7 +40,7 @@ body {
   background-color: var(--background-color);
   margin: 0 auto;
   padding: 0;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 12.5px;
   color: var(--text-color);
   text-align: left;
@@ -130,24 +130,47 @@ footer {
  * Header/Navigation
  */
 .menu {
+  display: flex;
+  /* Changed to flex */
+  align-items: center;
+  /* This vertically centers the items */
+  justify-content: space-between;
+  /* This pushes the logo and menu to opposite ends */
   border-top: var(--border);
   border-bottom: var(--border);
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  padding: 0;
+  /* Added to remove default padding */ }
+
+.menu .logo {
+  /* If your logo is too big or too small, you can control its size here. */
+  /* Example: */
+  height: 50px;
+  /* Or however tall your logo should be */
+  display: flex;
+  align-items: center; }
 
 .menu ul {
-  margin-top: 12px;
-  margin-bottom: 12px;
-  padding-left: 0px;
+  display: flex;
+  /* Changed to flex */
+  align-items: center;
+  /* This vertically centers the items */
   list-style-type: none;
+  margin: 0;
+  /* Removed specific top and bottom margins */
+  padding-left: 0px;
   text-align: right; }
 
 .menu ul li {
-  display: inline;
+  display: inline-block;
+  /* Changed to inline-block */
   margin-left: 10px; }
 
 .menu ul li a {
   text-decoration: none;
-  color: var(--text-color); }
+  color: var(--text-color);
+  display: block;
+  /* Added to ensure proper padding and margins */ }
 
 .menu ul li a:hover {
   text-decoration: none;
