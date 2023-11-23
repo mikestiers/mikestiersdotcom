@@ -3,90 +3,53 @@ layout: page
 title: gameDev
 permalink: /gamedev/
 ---
+
 # games i've made
+# [Baristapocalypse](http://baristapocalypse.com) - Space cafe simulator
+[![Baristapocalypse](../images/Baristapocalypse.gif)](http://baristapocalypse.com)
+- Unity
+- Lead Dev Game Designer
+- Gameplay Programmer
+- Crafting mechanic
+- Customer assault mechanic
+- User Interface
+- Automated testing
+- Cheat / debug console
 
-<table>
-  <tr>
-    <td><a href="http://baristapocalypse.com">Baristapocalypse</a> - Space cafe simulator</td>
-  </tr>
-  <tr>
-    <td><img src="../images/Baristapocalypse.gif" width="304" height="222"></td>
-    <td>
-    - Unity<br>
-    - Lead Dev Game Designer<br>
-    - Gameplay Programmer<br>
-    - Crafting mechanic<br>
-    - Customer assault mechanic<br>
-    - User Interaface<br>
-    - Automated testing<br>
-    - Cheat / debug console<br>
-    </td>
-  </tr>
+# [Annoying Pacman](http://github.com/mikestiers/pac-effectors) - Pacman but annoying
+![Annoying Pacman](../images/Annoying_Pacman.gif)
+- Recreating a classic to be annoying
+- Unity Physics Effectors playground
+- Vibing to understand retro design challenges
 
-  <tr>
-    <td><a href="http://github.com/mikestiers/pac-effectors">Annoying Pacman</a> - Pacman but annoying</td>
-  </tr>
-  <tr>
-    <td><img src="../images/Annoying_Pacman.gif" width="304" height="331"></td>
-    <td>- Recreating a classic to be annoying<br>
-    - Unity Physics Effectors playground<br>
-    - Vibing to understand retro design challenges<br>
-    </td>
-  </tr>
+# [Zoomies](http://github.com/mikestiers/zoomies) - Arcade Stunt Racing
+![Zoomies](../images/Zoomies.gif)
+- Unity
+- Physics-based car suspension
+- Physics-based wheels and friction
+- Unrealistic silly stunt tracks
+- Different car types
 
-  <tr>
-    <td><a href="http://github.com/mikestiers/zoomies">Zoomies</a> - Arcade Stunt Racing</td>
-  </tr>
-  <tr>
-    <td><img src="../images/Zoomies.gif" width="304" height="172"></td>
-    <td>
-    - Unity<br>
-    - Physics-based car suspension<br>
-    - Physics-based wheels and friction<br>
-    - Unrealistic silly stunt tracks<br>
-    - Different car types<br>
-    </td>
-  </tr>
+# [Skyward Assault](http://github.com/mikestiers/SkywardAssault) - Vertical FPS
+![Skyward Assault](../images/Skyward_Assault.gif)
+- Unreal 5.2 Blueprints
+- First-person / Third-person switch
+- Floating enemies with patrol points
+- Splash damage
+- Health system
 
-  <tr>
-    <td><a href="http://github.com/mikestiers/SkywardAssault">Skyward Assault</a> - Vertical FPS</td>
-  </tr>
-  <tr>
-    <td><img src="../images/Skyward_Assault.gif" width="304" height="178"></td>
-    <td>
-    - Unreal 5.2 Blueprints<br>
-    - First-person / Third-person switch<br>
-    - Floating enemies with patrol points<br>
-    - Splash damage<br>
-    - Health system<br>
-    </td>
-  </tr>
+# [TopDown Titan](http://github.com/mikestiers/TopDownTitan) - Mobile bullet-hell
+![TopDown Titan](../images/TopDown_Titan.gif)
+- Unity
+- Build for Android
+- Integration with ad system
+- Upgrades and collectibles
+- Gambling for player retention
+- User Interface
+- Automated testing
 
-  <tr>
-    <td><a href="http://github.com/mikestiers/TopDownTitan">TopDown Titan</a> - Mobile bullet-hell</td>
-  </tr>
-  <tr>
-    <td><img src="../images/TopDown_Titan.gif" width="304" height="249"></td>
-    <td>
-    - Unity<br>
-    - Build for Android<br>
-    - Integration with ad system<br>
-    - Upgrades and collectibles<br>
-    - Gambling for player retention<br>
-    - User Interaface<br>
-    - Automated testing<br>
-    </td>
-  </tr>
-
-  <tr>
-    <td><a href="http://github.com/mikestiers/spacemanx">Megaman X Recreate</a> - Classic Platformer</td>
-  </tr>
-  <tr>
-    <td><img src="../images/Megaman_X_Recreation.gif" width="304" height="171"></td>
-    <td>
-    - Unity<br>
-    - Exploring platformers<br>
-    - Exploring sprite animations<br>
-    </td>
-  </tr>
-</table>
+# [Megaman X Recreate](http://github.com/mikestiers/spacemanx) - Classic Platformer
+![Megaman X Recreate](../images/Megaman_X_Recreation.gif)
+- Unity
+- Exploring platformers
+- Exploring sprite animations
