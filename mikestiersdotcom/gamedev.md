@@ -5,8 +5,10 @@ permalink: /gamedev/
 ---
 
 # games i've made
-# [Baristapocalypse](http://baristapocalypse.com) - Space cafe simulator
-[![Baristapocalypse](../images/Baristapocalypse.gif)](http://baristapocalypse.com)
+
+<h1 align="center"><a href="http://baristapocalypse.com">Baristapocalypse</a> - Space cafe simulator</h1>
+<p align="center"><a href="http://baristapocalypse.com"><img src="../images/Baristapocalypse.gif" alt="Baristapocalypse" width="608" height="444"></a></p>
+
 - Unity
 - Lead Dev Game Designer
 - Gameplay Programmer
@@ -16,30 +18,34 @@ permalink: /gamedev/
 - Automated testing
 - Cheat / debug console
 
-# [Annoying Pacman](http://github.com/mikestiers/pac-effectors) - Pacman but annoying
-![Annoying Pacman](../images/Annoying_Pacman.gif)
+<h1 align="center"><a href="http://github.com/mikestiers/pac-effectors">Annoying Pacman</a> - Pacman but annoying</h1>
+<p align="center"><a href="http://github.com/mikestiers/pac-effectors"><img src="../images/Annoying_Pacman.gif" alt="Annoying Pacman" width="608" height="662"></a></p>
+
 - Recreating a classic to be annoying
 - Unity Physics Effectors playground
 - Vibing to understand retro design challenges
 
-# [Zoomies](http://github.com/mikestiers/zoomies) - Arcade Stunt Racing
-![Zoomies](../images/Zoomies.gif)
+<h1 align="center"><a href="http://github.com/mikestiers/zoomies">Zoomies</a> - Arcade Stunt Racing</h1>
+<p align="center"><a href="http://github.com/mikestiers/zoomies"><img src="../images/Zoomies.gif" alt="Zoomies" width="608" height="344"></a></p>
+
 - Unity
 - Physics-based car suspension
 - Physics-based wheels and friction
 - Unrealistic silly stunt tracks
 - Different car types
 
-# [Skyward Assault](http://github.com/mikestiers/SkywardAssault) - Vertical FPS
-![Skyward Assault](../images/Skyward_Assault.gif)
+<h1 align="center"><a href="http://github.com/mikestiers/SkywardAssault">Skyward Assault</a> - Vertical FPS</h1>
+<p align="center"><a href="http://github.com/mikestiers/SkywardAssault"><img src="../images/Skyward_Assault.gif" alt="Skyward Assault" width="608" height="356"></a></p>
+
 - Unreal 5.2 Blueprints
 - First-person / Third-person switch
 - Floating enemies with patrol points
 - Splash damage
 - Health system
 
-# [TopDown Titan](http://github.com/mikestiers/TopDownTitan) - Mobile bullet-hell
-![TopDown Titan](../images/TopDown_Titan.gif)
+<h1 align="center"><a href="http://github.com/mikestiers/TopDownTitan">TopDown Titan</a> - Mobile bullet-hell</h1>
+<p align="center"><a href="http://github.com/mikestiers/TopDownTitan"><img src="../images/TopDown_Titan.gif" alt="TopDown Titan" width="608" height="498"></a></p>
+
 - Unity
 - Build for Android
 - Integration with ad system
@@ -48,8 +54,9 @@ permalink: /gamedev/
 - User Interface
 - Automated testing
 
-# [Megaman X Recreate](http://github.com/mikestiers/spacemanx) - Classic Platformer
-![Megaman X Recreate](../images/Megaman_X_Recreation.gif)
+<h1 align="center"><a href="http://github.com/mikestiers/spacemanx">Megaman X Recreate</a> - Classic Platformer</h1>
+<p align="center"><a href="http://github.com/mikestiers/spacemanx"><img src="../images/Megaman_X_Recreation.gif" alt="Megaman X Recreate" width="608" height="342"></a></p>
+
 - Unity
 - Exploring platformers
 - Exploring sprite animations
