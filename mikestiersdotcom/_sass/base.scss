@@ -170,3 +170,17 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+/* Images set to take up full space on desktop and mobile
+   I am using this temporarily because my sample gifs are really small for now */
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 608px; /* Maximum size you want the image to scale up to */
+}
+
+@media (max-width: 768px) {
+  .responsive-image {
+    max-width: none;
+  }
+}
