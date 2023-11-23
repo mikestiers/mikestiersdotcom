@@ -46,14 +46,21 @@ body {
   text-align: left;
   line-height: 1.5 !important; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 12.5px;
   margin: 0px;
   margin-top: 22px;
   font-weight: bold;
   color: var(--text-color); }
 
-p, ul, ol {
+p,
+ul,
+ol {
   margin: 0px;
   color: var(--text-color); }
 
@@ -180,14 +187,18 @@ footer {
 /**
  * Form
  */
-input, select, textarea {
+input,
+select,
+textarea {
   padding: 0;
   margin: 0;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   border: none; }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   resize: none;
   background-color: var(--background-color);
@@ -197,7 +208,10 @@ input[type=text], select, textarea {
   font-family: "IBM Plex Mono", monospace;
   line-height: 1.5; }
 
-input, select, textarea, textarea::-webkit-input-placeholder {
+input,
+select,
+textarea,
+textarea::-webkit-input-placeholder {
   text-indent: 0px; }
 
 ::placeholder {
@@ -492,16 +506,75 @@ pre {
 
 /* Literal.Number.Integer.Long */
 /* Images set to take up full space on desktop and mobile
-   I am using this temporarily because my sample gifs are really small for now */
+   I am using this temporarily because my sample gifs are really small for now
+   */
 .responsive-image {
   width: 100%;
   height: auto;
+  display: block;
   max-width: 608px;
   /* Maximum size you want the image to scale up to */ }
 
 @media (max-width: 768px) {
   .responsive-image {
     max-width: none; } }
+/* Iframe overlay for creating a pop-up effect for games that the user clicks on
+  */
+#iframeOverlay {
+  position: fixed;
+  top: 10%;
+  /* Adjusted from 0 to 10% */
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  /* Hide by default */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px; }
+
+#iframeOverlay iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px; }
+
+#iframeOverlay button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+  cursor: pointer; }
+
+.image-hover {
+  position: relative;
+  display: inline-block;
+  /* Or 'block', depending on your layout */ }
+
+.image-hover .play-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Or any color you prefer */
+  font-size: 20px;
+  /* Adjust as needed */
+  display: none;
+  /* Hide by default */
+  z-index: 10; }
+
+.image-hover:hover .play-text {
+  display: block;
+  /* Show the text on hover */ }
+
 @media (prefers-color-scheme: dark) {
   /**
    * Dark theme variables
