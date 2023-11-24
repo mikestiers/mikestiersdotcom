@@ -33,6 +33,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag # used because it was a dependency of jekyll-theme-console and i copied that locally instead of installing it as a gem
+  - jekyll-redirect-from
 
 header_pages:
   - index.md
