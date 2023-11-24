@@ -31,7 +31,7 @@ permalink: /gamedev/
 
 <h1 align="center"><a href="http://github.com/mikestiers/pac-effectors">Annoying Pacman</a> - Pacman but annoying</h1>
 <div class="image-hover responsive-image" align="center">
-  <a href="../images/Annoying_Pacman.gif" class="iframeLink">
+  <a href="https://website.mikestiers.com/games/pacgl/index.html" class="iframeLink">
     <img src="../images/Annoying_Pacman.gif" alt="Annoying Pacman" class="responsive-image">
     <span class="play-text">Play</span>
   </a>
