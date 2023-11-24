@@ -19,7 +19,6 @@ permalink: /gamedev/
   </a>
 </div>
 
-
 - Unity
 - Lead Dev Game Designer
 - Gameplay Programmer
@@ -31,7 +30,7 @@ permalink: /gamedev/
 
 <h1 align="center"><a href="http://github.com/mikestiers/pac-effectors">Annoying Pacman</a> - Pacman but annoying</h1>
 <div class="image-hover responsive-image" align="center">
-  <a href="https://website.mikestiers.com/games/pacgl/index.html" class="iframeLink">
+  <a href="https://website.mikestiers.com/games/Annoying_Pacman/index.html" class="iframeLink">
     <img src="../images/Annoying_Pacman.gif" alt="Annoying Pacman" class="responsive-image">
     <span class="play-text">Play</span>
   </a>
@@ -39,11 +38,11 @@ permalink: /gamedev/
 
 - Recreating a classic to be annoying
 - Unity Physics Effectors playground
-- Vibing to understand retro design challenges
+- Understanding retro design challenges
 
 <h1 align="center"><a href="http://github.com/mikestiers/zoomies">Zoomies</a> - Arcade Stunt Racing</h1>
 <div class="image-hover responsive-image" align="center">
-  <a href="../images/Zoomies.gif" class="iframeLink">
+  <a href="https://website.mikestiers.com/games/Zoomies/index.html" class="iframeLink">
     <img src="../images/Zoomies.gif" alt="Zoomies" class="responsive-image">
     <span class="play-text">Play</span>
   </a>
