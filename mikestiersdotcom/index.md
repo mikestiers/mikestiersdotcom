@@ -5,7 +5,7 @@
 layout: page
 title: /
 permalink: /
-redirect_to: "/gamedev"
+redirect_to: "https://website.mikestiers.com/gamedev"
 
 ---
 <h1>{{ "Hey" | downcase }}</h1>
