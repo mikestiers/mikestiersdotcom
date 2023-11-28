@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' https://*.ytimg.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; media-src 'self'; object-src 'self'; child-src 'self' https://www.youtube.com; form-action 'none'; base-uri 'self'; frame-src https://www.youtube.com;">
+<meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
+<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>quaternions be crazy</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="quaternions be crazy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="quaternions are pretty interesting. i’m not going to pretend i fully understand them, but it’s kind of a funny thing about math and game dev. you need to be aware of it, but you don’t actually have to be well-versed in it. i frequently see people type “quaternion.identity” in their code and when pressed for an explanation, it’s usually “that’s just what you usually do”." />
+<meta property="og:description" content="quaternions are pretty interesting. i’m not going to pretend i fully understand them, but it’s kind of a funny thing about math and game dev. you need to be aware of it, but you don’t actually have to be well-versed in it. i frequently see people type “quaternion.identity” in their code and when pressed for an explanation, it’s usually “that’s just what you usually do”." />
+<link rel="canonical" href="http://localhost:4000/random/2023/11/14/quaternions-be-crazy.html" />
+<meta property="og:url" content="http://localhost:4000/random/2023/11/14/quaternions-be-crazy.html" />
+<meta property="og:site_name" content="mikestiers.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-11-14T11:14:11-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="quaternions be crazy" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-11-14T11:14:11-05:00","datePublished":"2023-11-14T11:14:11-05:00","description":"quaternions are pretty interesting. i’m not going to pretend i fully understand them, but it’s kind of a funny thing about math and game dev. you need to be aware of it, but you don’t actually have to be well-versed in it. i frequently see people type “quaternion.identity” in their code and when pressed for an explanation, it’s usually “that’s just what you usually do”.","headline":"quaternions be crazy","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/random/2023/11/14/quaternions-be-crazy.html"},"url":"http://localhost:4000/random/2023/11/14/quaternions-be-crazy.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" type="text/css" href="/assets/main-hacker.css"></head>
+<body>
+    <div class="container"><header>
+  <div class="menu">
+    <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" alt="Logo" style="height: 50px;">
+      </a>
+    </div>
+    <ul><li><a href="/">/</a></li><li><a href="/gamedev/">gameDev</a></li><li><a href="/projects/">projects</a></li><li><a href="/about/">about</a></li><li><a href="/blog/">blog</a></li></ul>
+  </div>
+</header><main>
+      <p>Published on 2023-11-14</p>
+<p>quaternions are pretty interesting.  i’m not going to pretend i fully understand them, but it’s kind of a funny thing about math and game dev.  you need to be aware of it, but you don’t actually have to be well-versed in it.  i frequently see people type “quaternion.identity” in their code and when pressed for an explanation, it’s usually “that’s just what you usually do”.</p>
+
+<p>so i wanted to try and dumb it down to a sentence that is better than “that’s just what you do” for in the future when someone maybe asks me why i’m doing it.  so first off, quaternion.identity is just 1 so i think of it like “i need to provide a rotation value but i don’t want it rotated, so multiply this thing by 1, so don’t really do anything to it”.  think of it like you want this thing to appear and you don’t want it to rotate at all from the original orientation of the model. why “identity” though?  because it’s an <a href="https://en.wikipedia.org/wiki/Identity_matrix">identity matrix</a> and it’s just one of those magical matrix transformations like the <a href="https://en.wikipedia.org/wiki/Rotation_matrix">clockwise rotation matrix, counter-clockwise rotation matrix, etc…</a>.</p>
+
+<p>but what’s the deal with that word quaternion?  i haven’t really explained it very well, have i?  i should feel like a big dumb faker, right?  yeah, i thought so too, but then i read the unity api docs and it said this:</p>
+
+<p><img src="/images/quaternions.png" alt="google" class="responsive-image" /></p>
+
+<p>such a casual flex in the documentation, right?  now i don’t feel so bad.  but don’t let that stop you from learning.  you’re not alone.</p>
+
+<p><a href="https://eater.net/quaternions">visualizing quaternions</a></p>
+
+
+    </main><footer>
+  <a href="https://github.com/mikestiers">github</a>
+</footer>
+</div>
+  </body>
+</html>
