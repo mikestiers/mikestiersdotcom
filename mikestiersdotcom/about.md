@@ -3,5 +3,5 @@ layout: page
 title: about
 permalink: /about/
 ---
-<h1>{{ "I make stuff, sometimes even for money." | downcase }}</h1>
-<p>{{ "look at me" | downcase }}</p>
+{{ "I make stuff, sometimes even for money." look at me | downcase }}
+<a href="mailto:mike.stiers@gmail.com">mike.stiers@gmail.com</a>
