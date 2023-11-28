@@ -4,6 +4,6 @@ title: projects
 permalink: /projects/
 ---
 
-<h1>Projects</h1>
+Projects
 [website.mikestiers.com](http://website.mikestiers.com)
 

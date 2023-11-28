@@ -1,5 +1,6 @@
 ---
 layout: default
 ---
-<p>Published on {{ page.date | date: "%Y-%m-%d" }}</p>
+<h1>{{ page.title | escape }} : {{ page.date | date: "%Y-%m-%d" }}</h1>
+<br>
 {{ content }}

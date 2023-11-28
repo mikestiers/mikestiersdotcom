@@ -56,7 +56,7 @@ h6 {
   margin: 0px;
   margin-top: 22px;
   font-weight: bold;
-  color: var(--text-color); }
+  color: var(--code-color-16); }
 
 p,
 ul,
@@ -66,7 +66,7 @@ ol {
 
 a {
   text-decoration: underline;
-  color: var(--link-color); }
+  color: var(--code-color-16); }
 
 a:hover {
   color: var(--background-color);
@@ -574,6 +574,9 @@ pre {
 .image-hover:hover .play-text {
   display: block;
   /* Show the text on hover */ }
+
+.post-date {
+  color: var(--code-color-16); }
 
 @media (prefers-color-scheme: dark) {
   /**

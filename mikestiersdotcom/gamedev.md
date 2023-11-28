@@ -10,8 +10,9 @@ permalink: /gamedev/
   <button id="closeIframeButton">Close</button>
 </div>
 
-# games i've made
-<h1 align="center"><a href="http://baristapocalypse.com">Baristapocalypse</a> - Space cafe simulator</h1>
+<center>i made these things</center>
+
+<center><h1><a href="http://baristapocalypse.com">Baristapocalypse</a></h1>Space cafe simulator</center>
 <div class="image-hover responsive-image" align="center">
   <a href="../images/Baristapocalypse.gif" class="iframeLink">
     <img src="../images/Baristapocalypse.gif" alt="Baristapocalypse" class="responsive-image">
@@ -28,7 +29,7 @@ permalink: /gamedev/
 - Automated testing
 - Cheat / debug console
 
-<h1 align="center"><a href="http://github.com/mikestiers/pac-effectors">Annoying Pacman</a> - Pacman but annoying</h1>
+<center><h1><a href="http://github.com/mikestiers/pac-effectors">Annoying Pacman</a></h1>Pacman but annoying</center>
 <div class="image-hover responsive-image" align="center">
   <a href="../games/Annoying_Pacman/index.html" class="iframeLink">
     <img src="../images/Annoying_Pacman.gif" alt="Annoying Pacman" class="responsive-image">
@@ -40,7 +41,7 @@ permalink: /gamedev/
 - Unity Physics Effectors playground
 - Understanding retro design challenges
 
-<h1 align="center"><a href="http://github.com/mikestiers/zoomies">Zoomies</a> - Arcade Stunt Racing</h1>
+<center><h1><a href="http://github.com/mikestiers/zoomies">Zoomies</a></h1>Arcade Stunt Racing</center>
 <div class="image-hover responsive-image" align="center">
   <a href="../games/Zoomies/index.html" class="iframeLink">
     <img src="../images/Zoomies.gif" alt="Zoomies" class="responsive-image">
@@ -54,7 +55,7 @@ permalink: /gamedev/
 - Unrealistic silly stunt tracks
 - Different car types
 
-<h1 align="center"><a href="http://github.com/mikestiers/SkywardAssault">Skyward Assault</a> - Vertical FPS</h1>
+<center><h1><a href="http://github.com/mikestiers/SkywardAssault">Skyward Assault</a></h1>Vertical FPS</center>
 <div class="image-hover responsive-image" align="center">
   <a href="../images/Skyward_Assault.gif" class="iframeLink">
     <img src="../images/Skyward_Assault.gif" alt="Skyward Assault" class="responsive-image">
@@ -68,7 +69,7 @@ permalink: /gamedev/
 - Splash damage
 - Health system
 
-<h1 align="center"><a href="http://github.com/mikestiers/TopDownTitan">TopDown Titan</a> - Mobile bullet-hell</h1>
+<center><h1><a href="http://github.com/mikestiers/TopDownTitan">TopDown Titan</a></h1>Mobile bullet-hell</center>
 <div class="image-hover responsive-image" align="center">
   <a href="../images/TopDown_Titan.gif" class="iframeLink">
     <img src="../images/TopDown_Titan.gif" alt="TopDown Titan" class="responsive-image">
@@ -84,7 +85,7 @@ permalink: /gamedev/
 - User Interface
 - Automated testing
 
-<h1 align="center"><a href="http://github.com/mikestiers/spacemanx">Megaman X Recreate</a> - Classic Platformer</h1>
+<center><h1><a href="http://github.com/mikestiers/spacemanx">Megaman X Recreate</a></h1>Classic Platformer</center>
 <div class="image-hover responsive-image" align="center">
   <a href="../images/Megaman_X_Recreation.gif" class="iframeLink">
     <img src="../images/Megaman_X_Recreation.gif" alt="Megaman X Recreate" class="responsive-image">

@@ -35,7 +35,8 @@
     <ul><li><a href="/">/</a></li><li><a href="/gamedev/">gameDev</a></li><li><a href="/projects/">projects</a></li><li><a href="/about/">about</a></li><li><a href="/blog/">blog</a></li></ul>
   </div>
 </header><main>
-      <p>Published on 2023-11-14</p>
+      <h1>quaternions be crazy : 2023-11-14</h1>
+<br>
 <p>quaternions are pretty interesting.  i’m not going to pretend i fully understand them, but it’s kind of a funny thing about math and game dev.  you need to be aware of it, but you don’t actually have to be well-versed in it.  i frequently see people type “quaternion.identity” in their code and when pressed for an explanation, it’s usually “that’s just what you usually do”.</p>
 
 <p>so i wanted to try and dumb it down to a sentence that is better than “that’s just what you do” for in the future when someone maybe asks me why i’m doing it.  so first off, quaternion.identity is just 1 so i think of it like “i need to provide a rotation value but i don’t want it rotated, so multiply this thing by 1, so don’t really do anything to it”.  think of it like you want this thing to appear and you don’t want it to rotate at all from the original orientation of the model. why “identity” though?  because it’s an <a href="https://en.wikipedia.org/wiki/Identity_matrix">identity matrix</a> and it’s just one of those magical matrix transformations like the <a href="https://en.wikipedia.org/wiki/Rotation_matrix">clockwise rotation matrix, counter-clockwise rotation matrix, etc…</a>.</p>
