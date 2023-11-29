@@ -563,13 +563,17 @@ pre {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--text-color);
   /* Or any color you prefer */
-  font-size: 20px;
+  font-size: 50px;
   /* Adjust as needed */
   display: none;
   /* Hide by default */
-  z-index: 10; }
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* 50% transparent black */
+  padding: 10px;
+  /* Add some padding around the text */ }
 
 .image-hover:hover .play-text {
   display: block;
@@ -577,6 +581,27 @@ pre {
 
 .post-date {
   color: var(--code-color-16); }
+
+@keyframes flashingText {
+  0% {
+    color: transparent; }
+  50% {
+    color: var(--text-color); }
+  100% {
+    color: transparent; } }
+@keyframes scrollingText {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(-100%); } }
+.flashing-scrolling {
+  display: inline-block;
+  animation: flashingText 1s linear infinite, scrollingText 10s linear infinite;
+  white-space: nowrap; }
+
+.scroll-container {
+  overflow: hidden;
+  white-space: nowrap; }
 
 @media (prefers-color-scheme: dark) {
   /**

@@ -10,7 +10,8 @@ permalink: /gamedev/
   <button id="closeIframeButton">Close</button>
 </div>
 
-<center>i made these things</center>
+<center>i made these things<br>
+<span class="flashing-scrolling">click on each game to play!</span></center>
 
 <center><h1><a href="http://baristapocalypse.com">Baristapocalypse</a></h1>Space cafe simulator</center>
 <div class="image-hover responsive-image" align="center">
