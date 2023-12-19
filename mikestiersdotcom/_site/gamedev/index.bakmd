@@ -13,14 +13,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="welcome to my homepage on the information superhighway. add me to your webring!" />
 <meta property="og:description" content="welcome to my homepage on the information superhighway. add me to your webring!" />
-<link rel="canonical" href="http://localhost:4000/projects/" />
-<meta property="og:url" content="http://localhost:4000/projects/" />
+<link rel="canonical" href="http://localhost:4000/gamedev/" />
+<meta property="og:url" content="http://localhost:4000/gamedev/" />
 <meta property="og:site_name" content="mikestiers.com" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="projects" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"welcome to my homepage on the information superhighway. add me to your webring!","headline":"projects","url":"http://localhost:4000/projects/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"welcome to my homepage on the information superhighway. add me to your webring!","headline":"projects","url":"http://localhost:4000/gamedev/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" type="text/css" href="/assets/main-hacker.css"></head>
 <body>
@@ -31,11 +31,11 @@
         <img src="/images/logo.png" alt="Logo" style="height: 50px;">
       </a>
     </div>
-    <ul><li><a href="/">/</a></li><li><a href="/gamedev/">gameDev</a></li><li><a href="/projects/">projects</a></li><li><a href="/about/">about</a></li><li><a href="/blog/">blog</a></li></ul>
+    <ul><li><a href="/">/</a></li><li><a href="/gamedev/">gameDev</a></li><li><a href="/about/">about</a></li><li><a href="/blog/">blog</a></li></ul>
   </div>
 </header><main>
-      <p>Projects
-<a href="http://website.mikestiers.com">website.mikestiers.com</a></p>
+      Projects
+[website.mikestiers.com](http://website.mikestiers.com)
 
 
 
